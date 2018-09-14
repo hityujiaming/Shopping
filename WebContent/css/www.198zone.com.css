@@ -1,0 +1,51 @@
+﻿/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+body{font-size:12px;font-family:Arial, Helvetica, sans-serif;  text-align:center; margin:0 auto;  background:#fff url('img/bg.png') repeat-x top;}
+table{border-collapse:collapse;border-spacing:0;}
+
+.clearfloat{height:0;font-size:1px;clear:both;line-height:0;}
+
+#container{ width:995px;text-align:left; margin:0 auto;}
+a{color:#333;text-decoration:none;}
+a:hover{color:#ef9b11; text-decoration:underline;}
+
+
+
+.mybox{ width:1002px; margin:0 auto;}
+	
+/* product show */	
+.photo_nav { line-height:40px; margin-left:40px; margin-right:32px; text-align:right; padding-top:6px;}
+	.photo_nav a {padding:0 5px;}
+	.photo_nav a.cur{ color:#000; font-weight:bold;}
+.photo_area{ width:1002px; background:#FFF; float:left; height:600px; float:left; overflow:hidden; padding-left:5px;}
+	.photo_area .l{float:left; width:63px; color:#FFF;  margin-top:190px;}
+	.photo_area .m{float:left; width:850px; overflow:hidden;}
+	.photo_area .m div{display: table-cell;vertical-align:middle;text-align:center;width:870px; height:600px; overflow:hidden;}
+	.photo_area .m div img {vertical-align:middle; border:0; margin-top:0px;}
+	.photo_area .r{float:right; color:#FFF; margin-top:190px; margin-right:5px;+margin-right:5px;_margin-right:3px;}
+/*6-29*/
+.photo_ctrl {
+	width:1002px;
+	text-align:center;
+	float:left;
+	margin-top:10px;
+	background-color:#cfd8e1;
+	height:1%;
+	padding:5px 0px;
+}	
+.photo_ctrl .l{width:20px; float:left; margin-top:5px; margin-left:10px; margin-top:15px;}
+.photo_ctrl .r{width:20px; float:right;margin-top:5px;margin-right:10px; margin-top:15px;}
+.photo_ctrl .m{ float:left;}
+.photo_ctrl li {display:inline; float:left; }
+.photo_ctrl li a {float:left;}
+.photo_ctrl.clear ul li a img {border:0px; width:58px; height:58px;}
+/*6-29*/
+.photo_ctrl.clear ul a span {position:absolute; margin-left:0px; width:58px; height:58px; filter:alpha(opacity=50);_moz-opacity:0.5;opacity:0.5;background-color:#ccc;    z-index:5000;}
+.photo_ctrl.clear ul a .nomask {position:absolute; margin-left:0px; width:58px; height:58px; filter:alpha(opacity=0);_moz-opacity:0.0;opacity:0.0;background-color:#ccc;    z-index:5000;}
+.photo_border1{ border:1px solid #b6c3d3; }
+.photo_border2{ border:1px solid #F00; }
+
+
+
