@@ -8,20 +8,20 @@ import com.mysql.jdbc.Connection;
 
 public class test {
 	    public static Connection getConnection(){
-	        String driver="com.mysql.jdbc.Driver";   //»ñÈ¡mysqlÊı¾İ¿âµÄÇı¶¯Àà
-	        String url="jdbc:mysql://47.75.7.46:3306/db_shopping"; //Á¬½ÓÊı¾İ¿â£¨testÊÇÊı¾İ¿âÃû£©
-	        String name="root";//Á¬½ÓmysqlµÄÓÃ»§Ãû
-	        String pwd="iloveshark77";//Á¬½ÓmysqlµÄÃÜÂë
+	        String driver="com.mysql.jdbc.Driver";   //è·å–mysqlæ•°æ®åº“çš„é©±åŠ¨ç±»
+	        String url="jdbc:mysql://xxxx:xxxx/db_shopping"; //è¿æ¥æ•°æ®åº“ï¼ˆtestæ˜¯æ•°æ®åº“åï¼‰
+	        String name="xxxx";//è¿æ¥mysqlçš„ç”¨æˆ·å
+	        String pwd="xxx";//è¿æ¥mysqlçš„å¯†ç 
 	        Connection conn= null;
 	        try {
 	            Class.forName(driver);
 	        } catch (ClassNotFoundException e1) {
-	            System.out.println("Çı¶¯¼ÓÔØÊ§°Ü");
+	            System.out.println("é©±åŠ¨åŠ è½½å¤±è´¥");
 	            e1.printStackTrace();
 	        }
 	        try{
-	            conn=(Connection) DriverManager.getConnection(url,name,pwd);//»ñÈ¡Á¬½Ó¶ÔÏó
-	            System.out.println("³É¹¦Á¬½ÓÊı¾İ¿â£¡");
+	            conn=(Connection) DriverManager.getConnection(url,name,pwd);//è·å–è¿æ¥å¯¹è±¡
+	            System.out.println("æˆåŠŸè¿æ¥æ•°æ®åº“ï¼");
 	            return conn;
 	        }catch(SQLException e){
 	            e.printStackTrace();
